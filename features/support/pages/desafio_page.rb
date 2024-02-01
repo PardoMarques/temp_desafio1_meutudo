@@ -15,6 +15,17 @@ class DesafioPage < SitePrism::Page
         sleep(1)
     end
 
+    def click_opcao_e_linha(opcao, linha)
+        posOpcao = nil
+        if opcao == "edit"
+            posOpcao = 1
+        elsif opcao == "delete"
+            posOpcao = 2
+        end
+
+        find("#content  table > tbody > tr:nth-child(#{(linha+1)}) > td:nth-child(7) > a:nth-child(#{posOpcao})").click()
+    end
+
     def go
         visit 'https://the-internet.herokuapp.com/challenging_dom'
         sleep(1)

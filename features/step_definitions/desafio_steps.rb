@@ -16,11 +16,11 @@ Então('pelo menos um dos textos contidos nos botões será modificado') do
   expect((resultadoA && resultadoB && resultadoC)).to eql(false)
 end
 
-Quando('clicar em {string} da linha {int}') do |string, int|
-# Quando('clicar em {string} da linha {float}') do |string, float|
-  pending # Write code here that turns the phrase above into concrete actions
+Quando('clicar em {string} da linha {int}') do |opcao, linha|
+  @desafio.click_opcao_e_linha(opcao, linha)
 end
 
-Então('a url da página será atualizada com o final {string}') do |string|
-  pending # Write code here that turns the phrase above into concrete actions
+Então('a url da página será atualizada com o final {string}') do |urlFinal|
+  resultado = "https://the-internet.herokuapp.com/challenging_dom" + urlFinal
+  expect(page.current_url).to eql(resultado)
 end

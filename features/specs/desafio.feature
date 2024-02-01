@@ -20,7 +20,7 @@
             Quando clicar em "edit" da linha <linha>
             Então a url da página será atualizada com o final "#edit"
             Quando clicar em "delete" da linha <linha>
-            Então a url da página será atualizada com o final "#edit"
+            Então a url da página será atualizada com o final "#delete"
 
             Exemplos:
             | linha |
