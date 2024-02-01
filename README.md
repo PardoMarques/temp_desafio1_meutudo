@@ -2,17 +2,12 @@
 
 As gems utilizadas neste projeto são as
 	
-	🚀Selenium WebDriver 3.142.7
-	
-	✨Capybara 3.34.0
-	
-	✨Cucumber 5.2.0
-	
-	✨Rspec 3.10.0
-	
-	✨Pry 0.13.1
-	
-	✨Site-Prism 3.7
+	🚀 'selenium-webdriver'
+	✨ 'rspec'
+	✨ 'cucumber'
+	✨ 'capybara'
+	✨ 'pry'
+	✨ 'site_prism'
 
 Para executar o projeto localmente, é preciso realizar a instalação do Ruby 3.0 e preparar a ambientação adequadamente, isto é:
 
