@@ -1,5 +1,4 @@
-# _temp_desafio2_meutudo_
-
+# Testes de Web - Challenging DOM
 As gems utilizadas neste projeto são as
 	
 	🚀 'selenium-webdriver'
