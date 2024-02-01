@@ -3,13 +3,7 @@ Before do
 
     @base = BasePage.new
 
-    @about = AboutPage.new
-    @cart = CartPage.new
-    @inventory = InventoryPage.new
-    @item = ItemPage.new
-    @login = LoginPage.new
-
-    @login.go
+    @desafio = DesafioPage.new
     
 end
  

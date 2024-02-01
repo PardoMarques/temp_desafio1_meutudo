@@ -7,7 +7,7 @@
 
             Esquema do Cenario: Clicando nos botoes azul, vermelho e verde
             Quando clicar no botão <cor_botao>
-            Então o texto contido em Answer será modificado
+            Então pelo menos um dos textos contidos nos botões será modificado
 
             Exemplos:
             | cor_botao  |
